@@ -105,3 +105,13 @@ var QPubConfig = {
         }
     ]
 };
+
+var Q = {};
+Q.QType = QType;
+Q.QTags = QTags;
+Q.QParagraphStyles = QParagraphStyles;
+Q.QCharacterStyles = QCharacterStyles;
+Q.QLanguage = QLanguage;
+Q.QExtendStylesMode = QExtendStylesMode;
+Q.QCharacterStyleAttributes = QCharacterStyleAttributes;
+Q.QParagraphStyleAttributes = QParagraphStyleAttributes;
