@@ -13,6 +13,11 @@ var QTags = {
     Title: "title"
 }
 
+var QStylesSuffix = {
+    First: "_first",
+    Last: "_last"
+}
+
 var QModule = {
     CreateBook: "CreateBook"
 }
@@ -116,3 +121,4 @@ Q.QExtendStylesMode = QExtendStylesMode;
 Q.QCharacterStyleAttributes = QCharacterStyleAttributes;
 Q.QParagraphStyleAttributes = QParagraphStyleAttributes;
 Q.QModule = QModule;
+Q.QStylesSuffix = QStylesSuffix;
