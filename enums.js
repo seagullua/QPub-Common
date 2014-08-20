@@ -115,3 +115,4 @@ Q.QLanguage = QLanguage;
 Q.QExtendStylesMode = QExtendStylesMode;
 Q.QCharacterStyleAttributes = QCharacterStyleAttributes;
 Q.QParagraphStyleAttributes = QParagraphStyleAttributes;
+Q.QModule = QModule;
