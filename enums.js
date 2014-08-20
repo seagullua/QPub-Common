@@ -13,6 +13,10 @@ var QTags = {
     Title: "title"
 }
 
+var QModule = {
+    CreateBook: "CreateBook"
+}
+
 var QParagraphStyles = {
     Paragraph: "qpub_p"
 
