@@ -10,12 +10,17 @@ var QType = {
 var QTags = {
     P: "p",
     Image: "image",
-    Title: "title"
+    Title: "title",
+    TOC: "qpub_toc"
 }
 
 var QStylesSuffix = {
     First: "_first",
     Last: "_last"
+}
+
+var QServiceStyles = {
+    FitWidth: "qpub_fit_width"
 }
 
 var QModule = {
