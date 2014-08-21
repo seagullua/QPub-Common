@@ -20,7 +20,8 @@ var QStylesSuffix = {
 }
 
 var QServiceStyles = {
-    FitWidth: "qpub_fit_width"
+    FitWidth: "qpub_fit_width",
+    TOCStyle: "qpub_toc_style"
 }
 
 var QModule = {
@@ -28,8 +29,13 @@ var QModule = {
 }
 
 var QParagraphStyles = {
-    Paragraph: "qpub_p"
-
+    Paragraph: "qpub_p",
+    Heading1: "qpub_h1",
+    Heading2: "qpub_h2",
+    Heading3: "qpub_h3",
+    TocLevel1: "qpub_toc_item_h1",
+    TocLevel2: "qpub_toc_item_h2",
+    TocLevel3: "qpub_toc_item_h3"
 }
 
 var QCharacterStyles = {
