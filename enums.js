@@ -122,6 +122,19 @@ var QPubConfig = {
     ]
 };
 
+var QExportFormats = {
+    PrintPdf: "print_pdf",
+    OnlinePdf: "online_pdf",
+    ePub: "epub",
+    Indesign: "indesign"
+};
+
+var QExportFileExtensions = {};
+QExportFileExtensions[QExportFormats.PrintPdf] = "pdf";
+QExportFileExtensions[QExportFormats.OnlinePdf] = "pdf";
+QExportFileExtensions[QExportFormats.ePub] = "epub";
+QExportFileExtensions[QExportFormats.Indesign] = "idml";
+
 var Q = {};
 Q.QType = QType;
 Q.QTags = QTags;
@@ -133,3 +146,5 @@ Q.QCharacterStyleAttributes = QCharacterStyleAttributes;
 Q.QParagraphStyleAttributes = QParagraphStyleAttributes;
 Q.QModule = QModule;
 Q.QStylesSuffix = QStylesSuffix;
+Q.QExportFileExtensions = QExportFileExtensions;
+Q.QExportFormats = QExportFormats;
