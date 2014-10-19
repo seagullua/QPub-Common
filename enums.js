@@ -5,28 +5,28 @@ var QType = {
     Color: "Color",
     FontStyle: "FontStyle", //Regular, Italic e.t.c
     PointSize: "PointSize"
-}
+};
 
 var QTags = {
     P: "p",
     Image: "image",
     Title: "title",
     TOC: "qpub_toc"
-}
+};
 
 var QStylesSuffix = {
     First: "_first",
     Last: "_last"
-}
+};
 
 var QServiceStyles = {
     FitWidth: "qpub_fit_width",
     TOCStyle: "qpub_toc_style"
-}
+};
 
 var QModule = {
     CreateBook: "CreateBook"
-}
+};
 
 var QParagraphStyles = {
     Paragraph: "qpub_p",
@@ -36,25 +36,25 @@ var QParagraphStyles = {
     TocLevel1: "qpub_toc_item_h1",
     TocLevel2: "qpub_toc_item_h2",
     TocLevel3: "qpub_toc_item_h3"
-}
+};
 
 var QCharacterStyles = {
     Underline: "qpub_u",
     Bold: "qpub_b",
     Italic: "qpub_i"
-}
+};
 
 var QLanguage = {
     UK_UA: "uk_UA",
     RU_RU: "ru_RU",
     EN_US: "en_US",
     EN_UK: "en_UK"
-}
+};
 
 var QExtendStylesMode = {
     XmlTag: "XmlTag",
     PStyle: "PStyle"
-}
+};
 
 var QCharacterStyleAttributes = [
     {
